@@ -13,7 +13,7 @@ SEED = 42
 
 WORKDIR = Path(".")
 DATADIR = WORKDIR / "data"
-MODELDIR = WORKDIR / "model_old"
+MODELDIR = WORKDIR / "model"
 
 dataset_path = WORKDIR / 'dataset.csv'
 train_dataset_path = DATADIR / 'train_dataset.pt'
