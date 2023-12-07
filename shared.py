@@ -1,7 +1,6 @@
 from pathlib import Path
 
 import torch
-# TODO from google.colab import drive
 from torch.utils.data import TensorDataset
 from transformers import (
     BertTokenizer,
