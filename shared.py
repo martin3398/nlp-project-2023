@@ -15,6 +15,7 @@ WORKDIR = Path(".")
 DATADIR = WORKDIR / "data"
 MODELDIR = WORKDIR / "model_old"
 
+dataset_path = WORKDIR / 'dataset.csv'
 train_dataset_path = DATADIR / 'train_dataset.pt'
 test_dataset_path = DATADIR / 'test_dataset.pt'
 tokenized_train_dataset_path = DATADIR / 'train_dataset_tokenized.pt'
