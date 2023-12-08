@@ -2,7 +2,7 @@
 
 This repository contains our Natural Language Processing Term Project at Seoul National University
 
-## How to Run this Project
+## Structure of the Project
 
 We provide the following Jupyter Notebooks:
 
@@ -13,6 +13,13 @@ We provide the following Jupyter Notebooks:
 * `04_Evaluate.ipynb`: Evaluates the finetuned Bert Classifier on the original and style transferred test set
 
 We furthermore provide a `00-Run_Everything.ipynb` Notebook that runs all the steps in the correct order.
+
+## How to Run this Project
+
+Please download the dataset and put `./dataset.csv`.
+
+You can then execute the different notebooks in correct order.
+Please note that this creates and exports some intermediate files into the `./data` folder.
 
 ## Project Description
 
@@ -46,3 +53,4 @@ The hypothesis is that the classification of fake news gets worse.
 ## TODO
 
 * [ ] Ensure reproducibility by using the same seed everywhere (there seems to be no seed somewhere - maybe torch)
+* [ ] "How to run this Project" section in this Readme file.
