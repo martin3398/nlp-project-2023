@@ -15,12 +15,21 @@ DATADIR = WORKDIR / "data"
 MODELDIR = WORKDIR / "model"
 
 dataset_path = WORKDIR / 'dataset.csv'
+
 train_dataset_path = DATADIR / 'train_dataset.pt'
 test_dataset_path = DATADIR / 'test_dataset.pt'
+
 tokenized_train_dataset_path = DATADIR / 'train_dataset_tokenized.pt'
 tokenized_test_dataset_path = DATADIR / 'test_dataset_tokenized.pt'
-untransferred_testset_path = DATADIR / 'untransferred_testset.pt'
-transferred_testset_path = DATADIR / 'transferred_testset.pt'
+
+untransferred_fake_testset_path = DATADIR / 'untransferred_fake_testset.pt'
+transferred_fake_testset_path = DATADIR / 'transferred_fake_testset.pt'
+transferred_fake_csv_path = DATADIR / 'transferred_fake_testset.csv'
+
+untransferred_real_testset_path = DATADIR / 'untransferred_real_testset.pt'
+transferred_real_testset_path = DATADIR / 'transferred_real_testset.pt'
+transferred_real_csv_path = DATADIR / 'transferred_real_testset.csv'
+
 model_path = MODELDIR / 'BERT_finetuned.ckpt'
 
 def tokenize_texts(df, feature="all_text"):
