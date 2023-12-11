@@ -50,7 +50,3 @@ We then report scores on the test set without and with style transfer.
 
 The hypothesis is that the classification of fake news gets worse.
 
-## TODO
-
-* [ ] Ensure reproducibility by using the same seed everywhere (there seems to be no seed somewhere - maybe torch)
-* [ ] "How to run this Project" section in this Readme file.
